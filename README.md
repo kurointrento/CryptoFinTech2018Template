@@ -1,3 +1,6 @@
+# Acknowledgement
+This template is derived from the work done by Elia Geretto (elia.geretto@studenti.unitn.it), in the Research Project Course (Fall 2017), advised by Prof. Fabio Massacci (fabio.massacci@unitn.it) and TA Chan Nam Ngo (channam.ngo@unitn.it).
+
 # Build instructions
 
 ### Cloning
