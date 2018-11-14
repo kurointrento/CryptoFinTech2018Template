@@ -37,3 +37,16 @@ target_link_libraries (
 	snark
 	gtest
 )
+
+add_executable (
+	main_copy_test
+
+	tests/main_copy.cpp
+	utils/random.cpp
+)
+target_link_libraries (
+	main_copy_test
+
+	snark
+	gtest
+)
