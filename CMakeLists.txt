@@ -50,3 +50,107 @@ target_link_libraries (
 	snark
 	gtest
 )
+
+add_executable (
+	sha256_comp_less_gadget_test
+
+	tests/sha256_comp_less_gadget_test.cpp
+	utils/random.cpp
+)
+target_link_libraries (
+	sha256_comp_less_gadget_test
+
+	snark
+	gtest
+)
+
+add_executable (
+	sha256_comp_less_eq_gadget_test
+
+	tests/sha256_comp_less_eq_gadget_test.cpp
+	utils/random.cpp
+)
+target_link_libraries (
+	sha256_comp_less_eq_gadget_test
+
+	snark
+	gtest
+)
+
+add_executable (
+	sha256_comp_greater_gadget_test
+
+	tests/sha256_comp_greater_gadget_test.cpp
+	utils/random.cpp
+)
+target_link_libraries (
+	sha256_comp_greater_gadget_test
+
+	snark
+	gtest
+)
+
+add_executable (
+	sha256_comp_greater_eq_gadget_test
+
+	tests/sha256_comp_greater_eq_gadget_test.cpp
+	utils/random.cpp
+)
+target_link_libraries (
+	sha256_comp_greater_eq_gadget_test
+
+	snark
+	gtest
+)
+
+add_executable (
+	sha256_value_equal_gadget_test
+
+	tests/sha256_value_equal_gadget_test.cpp
+	utils/random.cpp
+)
+target_link_libraries (
+	sha256_value_equal_gadget_test
+
+	snark
+	gtest
+)
+
+add_executable (
+	sha256_value_greater_eq_gadget_test
+
+	tests/sha256_value_greater_eq_gadget_test.cpp
+	utils/random.cpp
+)
+target_link_libraries (
+	sha256_value_greater_eq_gadget_test
+
+	snark
+	gtest
+)
+
+add_executable (
+	sha256_double_comp_gadget_test
+
+	tests/sha256_double_comp_gadget_test.cpp
+	utils/random.cpp
+)
+target_link_libraries (
+	sha256_double_comp_gadget_test
+
+	snark
+	gtest
+)
+
+add_executable (
+	sha256_sym_range_gadget_test
+
+	tests/sha256_sym_range_gadget_test.cpp
+	utils/random.cpp
+)
+target_link_libraries (
+	sha256_sym_range_gadget_test
+
+	snark
+	gtest
+)
